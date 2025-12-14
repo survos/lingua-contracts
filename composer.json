@@ -1,0 +1,20 @@
+{
+  "name": "survos/lingua-contracts",
+  "type": "library",
+  "description": "Shared DTOs and API surface (routes/headers) for Survos Lingua client/server interoperability.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Survos\\Lingua\\Contracts\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.5",
+    "symplify/easy-coding-standard": "^13.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
